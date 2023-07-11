@@ -1,0 +1,28 @@
+{
+  "name": "react-native-reactive-library",
+  "version": "1.0.6",
+  "description": "Reactive responsive grid and elements library for React Native",
+  "main": "src/",
+  "scripts": {
+    "postinstall": "node ./setup/scripts/build.js"
+  },
+  "repository": "https://git.edgewebware.com:8446/scm/res/node-modules.git",
+  "keywords": [
+    "react-native",
+    "react",
+    "mobile",
+    "reactive-library",
+    "responsive",
+    "grid",
+    "layout"
+  ],
+  "author": "Elijah Brandyberry <elijah@elijahbrandyberry.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@react-native-picker/picker": "^2.4.9",
+    "prop-types": "^15.6.1",
+    "react-native-datepicker": "^1.7.2",
+    "tinycolor2": "^1.4.1"
+  },
+  "private": false
+}
